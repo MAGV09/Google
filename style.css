@@ -1,4 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 body{
-    height: 100vh;
+    height: 96vh;
     display: flex;
+    flex-direction: column;
+    padding: 2px 6px;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.text{
+    display: flex;
+    gap: 14px;
+    padding: 6px;
+    font-size: 13px;
+    font-weight: 430;
+}
+.dots{
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+}
+.icon{
+    border-radius: 20px;
+      width: 32px;
+    height: 32px;
+    padding: 6px;
+}
+.googleLogo{
+    width: 270px;
+    height: 92px;
 }
